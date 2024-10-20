@@ -1,0 +1,23 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false
+    },
+    "target": "es5",
+    "loose": true,
+    "minify": {
+      "compress": true,
+      "mangle": true
+    },
+    "transform": {
+      "legacyDecorator": true,
+      "decoratorMetadata": false,
+      "react": {
+        "useBuiltIns": true
+      },
+      "useDefineForClassFields": false
+    }
+  },
+  "sourceMaps": true
+}
